@@ -25,6 +25,7 @@ bot.on('start', () => {
 // Error Handler
 bot.on('error', (err) => {
     console.log(err);
+    console.log(errno);
 })
 
 // Message Handler
