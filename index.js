@@ -12,7 +12,7 @@ const bot = new SlackBot({
 // Start Handler
 bot.on('start', () => {
     const params = {
-        icon_emoji: ':robot_face:'
+        icon_emoji: ':coffee_face:'
     }
 
     bot.postMessageToChannel(
