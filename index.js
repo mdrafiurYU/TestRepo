@@ -33,5 +33,6 @@ bot.on('message', (data) => {
         return;
     }
     handleMessage(data.text);
+    console.log(data.text);
 })
 
