@@ -12,7 +12,7 @@ const bot = new SlackBotKit({
 // Start Handler
 bot.on('start', () => {
     const params = {
-        icon_emoji: ':robot_face:'
+        icon_emoji: ':coffee_face:'
     }
 
     bot.postMessageToChannel(
@@ -25,6 +25,7 @@ bot.on('start', () => {
 // Error Handler
 bot.on('error', (err) => {
     console.log(err);
+    console.log(errno);
 })
 
 // Message Handler
