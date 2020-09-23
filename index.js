@@ -37,3 +37,5 @@ bot.on('message', (data) => {
     console.log(data.text);
 })
 
+//Added feature 1
+bot.on()
