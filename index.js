@@ -21,6 +21,10 @@ bot.on('start', () => {
         params
     );
 })
+
+//Added feature 2
+bot.on('convo', () => {
+})
   
 // Error Handler
 bot.on('error', (err) => {
