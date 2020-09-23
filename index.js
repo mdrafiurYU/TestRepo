@@ -4,6 +4,8 @@ const dotenv = require('dotenv')
 
 dotenv.config()
 
+import pandas
+
 const bot = new SlackBotKit({
     token: `${process.env.BOT_TOKEN}`,
     name: 'coffeebot'
